@@ -41,4 +41,18 @@
     .build_process .build_process_description .build_process_info .btns_block .brand_btn {
         width: 190px;
     }
+
+    .action_object.action .action_object_wrap .action_subtitle {
+        max-width: 100%;
+    }
+
+    .action_object.action .action_object_wrap .swiper_wrap .slider13 {
+        width: 320px;
+        max-width: 100%;
+    }
+
+    .action_object.action .action_object_wrap .action_img {
+        height: 320px;
+        width: 320px;
+    }
 }
