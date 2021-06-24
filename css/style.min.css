@@ -34,6 +34,12 @@
     }
 }
 
+@media (max-width: 991px) {
+.about_project .container .about_project_wrap .left_column.about-text-shown p {
+    display: block;
+}
+}
+
 @media (max-width: 375px) {
     .header a.tel_num_mobile {
         display: none;

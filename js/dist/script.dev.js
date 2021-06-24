@@ -95,64 +95,37 @@ testWebP(function (e) {
           delay: 5000
         },
         speed: 600
-      });
-      var e = new Swiper(".slider2", {
-        observer: !0,
-        observeParents: !0,
-        slidesPerView: 5.5,
-        slideToClickedSlide: !0,
-        slidesOffsetBefore: 180,
-        initialSlide: 0,
-        loop: !0,
-        speed: 600,
-        allowTouchMove: !1,
-        breakpoints: {
-          320: {
-            slidesPerView: 1.5,
-            slidesOffsetBefore: 50
-          },
-          340: {
-            slidesPerView: 1.5,
-            slidesOffsetBefore: 55
-          },
-          360: {
-            slidesPerView: 1.5,
-            slidesOffsetBefore: 60
-          },
-          380: {
-            slidesPerView: 1.5,
-            slidesOffsetBefore: 65
-          },
-          400: {
-            slidesPerView: 1.5,
-            slidesOffsetBefore: 70
-          },
-          420: {
-            slidesPerView: 1.5,
-            slidesOffsetBefore: 75
-          },
-          440: {
-            slidesPerView: 3,
-            slidesOffsetBefore: 100
-          },
-          767: {
-            slidesPerView: 4,
-            slidesOffsetBefore: 180
-          },
-          1560: {
-            slidesPerView: 5.5
-          }
-        }
-      });
+      }); // var e = new Swiper(".slider2", {
+      //   observer: !0,
+      //   observeParents: !0,
+      //   slidesPerView: 5.5,
+      //   slideToClickedSlide: !0,
+      //   slidesOffsetBefore: 180,
+      //   initialSlide: 0,
+      //   loop: !0,
+      //   speed: 600,
+      //   allowTouchMove: !1,
+      //   breakpoints: {
+      //     320: { slidesPerView: 1.5, slidesOffsetBefore: 50 },
+      //     340: { slidesPerView: 1.5, slidesOffsetBefore: 55 },
+      //     360: { slidesPerView: 1.5, slidesOffsetBefore: 60 },
+      //     380: { slidesPerView: 1.5, slidesOffsetBefore: 65 },
+      //     400: { slidesPerView: 1.5, slidesOffsetBefore: 70 },
+      //     420: { slidesPerView: 1.5, slidesOffsetBefore: 75 },
+      //     440: { slidesPerView: 3, slidesOffsetBefore: 100 },
+      //     767: { slidesPerView: 4, slidesOffsetBefore: 180 },
+      //     1560: { slidesPerView: 5.5 },
+      //   },
+      // });
+
       new Swiper(".house-main-slider", {
         observer: !0,
         observeParents: !0,
         loop: !0,
         speed: 600,
-        loopedSlides: $(".house-main-slider .swiper-wrapper .swiper-slide").length,
-        thumbs: {
-          swiper: e
-        },
+        //   loopedSlides: $(".house-main-slider .swiper-wrapper .swiper-slide")
+        //     .length,
+        //thumbs: { swiper: e },
         navigation: {
           nextEl: ".swiper-button-next-house",
           prevEl: ".swiper-button-prev-house"
@@ -175,8 +148,12 @@ testWebP(function (e) {
   }
 }), $(".step-btn, .step-steps li").click(function () {
   $(".step-tab-panel:last-of-type").hasClass("active") ? $(".step-footer").addClass("step-footer-hidden") : $(".step-footer").removeClass("step-footer-hidden");
-}), $(".about_project .container .about_project_wrap .left_column .action_button").on("click", function (e) {
-  e.preventDefault(), $(".about_project .container .about_project_wrap .left_column p").show(), $(this).hide();
+}), $(".about_project .container .about_project_wrap .left_column .action_button").on("click", function (event) {
+  event.preventDefault();
+  $(this).closest(".left_column").toggleClass("about-text-shown");
+  $(this).text(function (i, text) {
+    return text === "подробнее о проекте" ? "скрыть" : "подробнее о проекте";
+  });
 }), $(window).on("load", function () {
   var e = $(".search-top-slider .swiper-slide-active");
   if (console.log(e), $(window).width() >= 1280) var i = $(e).width() + 180;else i = $(e).width() + 75;
