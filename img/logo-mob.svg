@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="7.4455mm" height="7.5135mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 284521 287119"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:none}
+    .fil6 {fill:#08261B}
+    .fil5 {fill:#0C2E21}
+    .fil4 {fill:#0D3B2A}
+    .fil3 {fill:#1A4636}
+    .fil1 {fill:#406557}
+    .fil2 {fill:#5A7A6E}
+    .fil7 {fill:#738E84}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M142881 48532c52112,0 94358,42245 94358,94354 0,52112 -42245,94354 -94358,94354 -52108,0 -94354,-42242 -94354,-94354 0,-52108 42245,-94354 94354,-94354z"/>
+   </clipPath>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil0" width="284521" height="287119"/>
+  <path class="fil1" d="M142881 48532c52112,0 94358,42245 94358,94354 0,52112 -42245,94354 -94358,94354 -52108,0 -94354,-42242 -94354,-94354 0,-52108 42245,-94354 94354,-94354z"/>
+  <g style="clip-path:url(#id0)">
+   <g id="_2783809698800">
+    <g>
+     <rect class="fil2" x="48529" y="95709" width="47177" height="47177"/>
+     <rect class="fil3" x="142883" y="95709" width="47177" height="47177"/>
+     <rect class="fil4" x="190060" y="95709" width="47177" height="47177"/>
+     <rect class="fil2" x="95706" y="48533" width="47177" height="47177"/>
+     <rect class="fil1" x="48529" y="142886" width="47177" height="47177"/>
+     <rect class="fil3" x="95706" y="142886" width="47177" height="47177"/>
+     <rect class="fil4" x="142883" y="142886" width="47177" height="47177"/>
+     <rect class="fil5" x="190060" y="142886" width="47177" height="47177"/>
+     <rect class="fil3" x="48529" y="190063" width="47177" height="47177"/>
+     <rect class="fil4" x="95706" y="190063" width="47177" height="47177"/>
+     <rect class="fil5" x="142883" y="190063" width="47177" height="47177"/>
+     <rect class="fil1" x="95706" y="95709" width="47177" height="47177"/>
+     <rect class="fil6" x="190060" y="190063" width="47177" height="47177"/>
+     <rect class="fil7" x="48529" y="48533" width="47177" height="47177"/>
+     <rect class="fil1" x="142883" y="48533" width="47177" height="47177"/>
+     <rect class="fil3" x="190060" y="48533" width="47177" height="47177"/>
+    </g>
+   </g>
+  </g>
+  <path class="fil0" d="M142881 48532c52112,0 94358,42245 94358,94354 0,52112 -42245,94354 -94358,94354 -52108,0 -94354,-42242 -94354,-94354 0,-52108 42245,-94354 94354,-94354z"/>
+ </g>
+</svg>
